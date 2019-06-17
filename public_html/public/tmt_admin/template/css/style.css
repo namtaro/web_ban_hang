@@ -1,0 +1,659 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.menume{
+	position: relative;
+}
+.menume .menucon{
+	top: 0;
+ left: 100%;
+ margin-top: -1px;
+}
+#menu{
+	background-color:#02659d;
+	padding-left: 100px;
+
+}
+#menuadmintest ul {
+  background: #990000;
+  list-style-type: none;
+  text-align: center;
+}
+#menuadmintest li {
+  color: #f1f1f1;
+  display: inline-block;
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: -5px;
+}
+#menuadmintest a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+#menuadmintest a:hover {
+  background: #F1F1F1;
+  color: #333;
+}
+
+.mauchu{
+	color: #c0fffd;
+}
+#dangnhapdangky{
+	float: right;
+	padding-right: 50px;
+	padding-top: 10px;
+}
+#dangnhapdangky a{
+	color: red;
+	text-decoration-line: none;
+}
+#duoimenu{
+	height: 54px;
+	background-color: #DCDCDC;
+}
+#logo{
+	float: left;
+	padding-left: 20px;
+	top: -5px;
+	/*width: 100px;
+	height: 50px;*/
+}
+.glyphicon-shopping-cart{
+	font-size: 30px;
+}
+/*.classsize{
+	width: auto;
+	max-height: 400px;
+	
+	padding-top: 20px;
+
+}*/
+
+.item img{
+	padding-left: 200px;
+	width: 100%;
+	
+}
+#slidebar{
+	/*margin-top: 70px;*/
+	/*border: 1px solid #FF33FF;*/
+	height: auto;
+}
+#slidebar h3{
+	background-color: #02659d;
+	text-align:center;
+	color: #FFFFFF;
+	border-bottom: 1px solid #555555;
+}
+#slidebar ul{
+	background-color: #FFFFFF;
+	margin-top:-10px;
+	color: red;
+	
+}
+#slidebar ul li{
+	border-bottom: 1px solid #555555;
+}
+#slidebar ul li a{
+	color: #FFFFFF;
+	background-color: #02659d;
+	text-transform: uppercase;
+	text-align: center;
+
+}
+
+.menume{
+	position: relative;
+}
+/*important thay đổi quan trọng*/
+ .menucon{
+	top: 0;
+ left: 100%;
+ margin-top: 0px !important;
+ padding:0px !important;
+ border: 0 !important;
+}
+
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover{
+	background-image: none;
+	background-color: #255773 !important;
+}
+
+.dropdown-menu>li>a{
+	line-height: 2em;	
+}
+.dropdown a:hover{
+	background-color: #3300CC  !important;
+}
+.tchover li a:hover{
+	background-color: #3300CC !important ;	
+}
+
+.menume:hover .menucon{
+	display: block;
+}
+.boxgiua{
+	height: 350px;
+	margin-bottom: 50px;
+}
+.ruotgiua{
+	height: 350px;
+	background-color: #EEEED1;
+	margin-right: 1px;
+	/*margin-top: 50px;*/	
+}
+
+.ruotgiua img{
+	width: auto;
+	height: 200px;
+	background-repeat: no-repeat;
+}
+.ruotgiua button{
+	text-align: center;
+}
+#phangiua{
+	
+}
+
+/*popup cho Image*/
+
+/*end popup cho Image*/
+footer{
+	
+	width: auto;height: 200px;background-color: #111111;
+	
+}
+.vitifoot{
+	margin-top: 30px;
+	
+
+}
+.vitifoot ul li{
+	list-style: none;
+}
+.vitifoot ul li a{
+	text-transform: uppercase;
+	color: #FFFFFF;
+
+}
+
+/*page admin*/
+/*page admin*/
+/*page admin*/
+/*page admin*/
+/*page admin*/
+/*page admin*/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.menumeadmin{
+	position: relative;
+}
+ .menuconadmin{
+	top: 0;
+ left: 100%;
+ margin-top: -1px;
+}
+.menumeadmin:hover .menuconadmin{
+	display: block;
+}
+#slidebaradmin{
+	/*margin-top: 70px;*/
+	/*border: 1px solid #FF33FF;*/
+	height: auto;
+	float: left;
+	
+}
+
+#slidebaradmin ul{
+	
+	
+	color: red;
+
+	
+}
+#slidebaradmin ul li{
+	border-bottom: 1px solid #555555;
+}
+#slidebaradmin ul li a{
+	color: #FFFFFF;
+	background-color: #DAA520;
+	text-transform: uppercase;
+	text-align: center;
+
+}
+#slidebaradmin ul li a:hover{
+	
+	color: red;
+	background-color: #CD96CD;
+}
+.iconadmin{
+	font-size: 54px;
+	margin-top: 0px;
+	color: #FFD700;
+}
+.logoadminh3{
+	float: right;
+	color: red;
+	font-size: 54px;
+	 margin-top: -70px;
+}
+@media only screen and (max-width: 320px) {
+    .logoadminh3 {
+        font-size: 54px;
+        float: right;
+	color: red;
+	margin-top: -70px;
+	margin-left: 50px;
+	
+    }
+    
+}
+@media screen and (max-width: 375px) {
+.logoadminh3 {
+        font-size: 54px;
+        float: right;
+	color: red;
+	margin-top: -70px;
+	margin-left: 50px;
+	
+    }
+}
+@media screen and (max-width: 425px) {
+.logoadminh3 {
+        font-size: 54px;
+        float: right;
+	color: red;
+	margin-top: -70px;
+	margin-left: 50px;
+	
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px ) {
+.logoadminh3 {
+        font-size: 54px;
+        float: right;
+	color: red;
+	margin-top: -10px;
+	margin-left: 50px;
+	
+    }
+}
+@media screen and (min-width: 1024px) and (max-width: 1439px ) {
+.logoadminh3 {
+        font-size: 54px;
+        float: right;
+	color: red;
+	margin-top: -70px;
+	margin-left: 50px;
+	
+    }
+}
+/*noidungadmin*/
+#noidungadmin{
+	
+	
+	height: 300px;
+	
+}
+#bodytopadmin{
+	
+	height: 40px;
+	border-bottom: 2px solid #2F4F4F;
+
+
+}
+#bodytopadmin h3{
+
+}
+.bodyadmin{
+	padding-top: 20px;
+
+}
+.bodyadmin img{
+	width: 200px;height: 200px;
+	padding-bottom: 20px;
+}
+.bodyadmin a{
+	padding-left: 60px;
+	font-size: 20px;
+	text-decoration: none;
+}
+.searchadmin{
+	height: 54px;
+}
+.menuadmin{
+	background-color: #990000;
+	height: 54px;
+}
+.menuadmin ul li{
+	padding-top: 5px;
+}
+
+#dangnhapdangkyadmin{
+	background-color: #990000;
+	float: right;
+	height: 54px;
+}
+#footeradmin{
+	position: fixed;
+    left: 0;
+    bottom: 0;
+	height: 54px;
+	background-color: #440000;
+	width: 100%;
+	padding-bottom: 0px;
+	font-style: 30px;
+	
+}
+#footeradmin p{
+	padding-top: 20px;
+	text-align: center;
+	color: #FFFAFA;
+}
+/*#dangnhapdangkyadmin a{
+	color: red;
+	text-decoration-line: none;
+}*/
+#logoutadmin{
+	float: right;
+	
+}
+#logoutadmin a{
+	text-align: center;
+	text-decoration: none;
+}
+#logoutadmin a div{
+	width: 60px;height: 54px;
+	background-color: #FFFFFF;
+}
+#nameadmin{
+	height: 30px;
+	padding: 8px;
+}
+/*end page admin*/
+/*end page admin*/
+/*end page admin*/
+/*end page admin*/
+/*end page admin*/
+/*end page admin*/
+
+
+
+
+/* page login*/
+/* page login*/
+/* page login*/
+/* page login*/
+/* page login*/
+body {font-family: Arial, Helvetica, sans-serif;}
+form {border: 3px solid #f1f1f1;}
+
+input[type=email], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar {
+    width: 20%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+
+/*end page login*/
+/*end page login*/
+/*end page login*/
+/*end page login*/
+/*end page login*/
+
+
+/*page add cate*/
+/*page add cate*/
+/*page add cate*/
+/*page add cate*/
+/*page add cate*/
+
+#addcateadmin{
+	
+	margin-bottom: 40px;
+	
+	padding: 0% 30%;
+	
+
+}
+
+#addcateadmin h3{
+	text-align: center;
+	
+
+}
+
+#tableaddcate {
+padding-bottom: 70px;
+}
+/*.xoasuacate{
+	
+	height: 100%;
+	background-color: red;
+}
+.xoasuacate a{
+	
+	height: 100%;
+}*/
+#tableaddcate{
+	margin-bottom: 20px;
+}
+/*end page add cate*/
+/*end page add cate*/
+/*end page add cate*/
+/*end page add cate*/
+/*end page add cate*/
+/*end page add cate*/
+
+
+/*dashbord*/
+
+.thumb {
+    width: 818px;
+    height: 400px;
+    background-color: #3e3e3e;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.thumbdetail{
+    width: 100%;
+    height: 300px;
+    background-color: #3e3e3e;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+/*header*/
+.dathangfr{
+	float: left;width: 100px;height: 40px;background-color: #1874CD;color: #FFFFFF;
+	font-weight: bold;
+	margin:0px 0px !important
+}
+.chitietfr{
+	float: left;width: 100px;height: 40px;background-color: #009933;color: #FFFFFF;
+	font-weight: bold;
+}
+.lieheh4{
+	float: right;
+	font-size: 18px;
+}
+
+.inputsearch{
+	width: 180px;
+	margin-right: 20px;
+}
+.inputqty{
+	width: 40px;
+}
+@media only screen and (max-width: 320px) {
+   .inputsearch{
+   	width: 150px;
+   }
+    .lieheh4 {
+    	font-size: 16px;
+    	margin-top: 20px;
+    }
+    .dathangfr{
+    	float: left;width: 90px;height: 40px;background-color: #1874CD;font-weight: bold; color: #FFFFFF;margin:0px 0px !important
+    }
+    .chitietfr{
+	float: left;width: 90px;height: 40px;background-color: #009933;color: #FFFFFF;font-weight: bold;
+}
+.cartupdate{
+	font-size: 10px;
+}
+.tth3 h3{
+font-size: 18px;
+}
+.guidh{
+	margin-top: 0px;
+}
+}
+
+.iconfr{
+	color: #963e0a;
+}
+@media screen and (min-width: 321px) and (max-width: 374px) {
+.tkfr{
+margin-left: 200px;
+}
+
+}
+@media screen and (max-width: 375px) and (min-width: 321px) {
+.tkfr{
+margin-left: 200px;
+}
+}
+@media screen and (max-width: 425px) {
+
+}
+@media screen and (min-width: 768px) and (max-width: 1023px ) {
+.dathangfr{
+    	float: left;width: 90px;height: 40px;background-color: #1874CD;font-weight: bold; color: #FFFFFF;margin:0px 0px !important
+    }
+    .chitietfr{
+	float: left;width: 90px;height: 40px;background-color: #009933;color: #FFFFFF;font-weight: bold;
+}
+}
+@media screen and (min-width: 1024px) and (max-width: 1439px ) {
+.iconfr{
+	color: #963e0a;
+}
+}
+/*endheader*/
+
+/*dashbord*/
+
+.chitiet:hover{
+	background-color: #006600 !important;
+	color: #FFFFFF;
+	font-style: italic;
+	font-weight: bold;
+}
+.chitietdat:hover{
+	background-color: #0033CC !important;
+	color: #FFFFFF;
+	font-style: italic;
+	font-weight: bold;
+}
+
+
+/*cartdetail*/
+.thumbcartdetail{
+    width: 100px;
+    height: 50px;
+    background-color: #3e3e3e;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+/*cartdetail*/
+/*xanhandonhang*/
+.xacnhan{
+width: 300px;
+    height: 300px;
+    background: #FFFFFF;
+    -moz-border-radius: 150px;
+    -webkit-border-radius: 150px;
+    --border-radius: 150px;
+    border-radius: 150px;
+    border:2px solid #00FF00 ;
+    position: absolute;
+    left: 50px;
+   
+	
+	}
+/*xanhandonhang*/
+
+/*error*/
+.thongbao ul li{
+	color: red;
+	list-style-type: none;
+}
+
+/*enderror*/
